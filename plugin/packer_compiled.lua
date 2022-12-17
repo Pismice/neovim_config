@@ -130,6 +130,11 @@ _G.packer_plugins = {
     path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  nvcode = {
+    loaded = true,
+    path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/nvcode",
+    url = "https://github.com/jilvanx/nvcode"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/nvim-cmp",
