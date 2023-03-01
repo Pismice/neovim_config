@@ -60,4 +60,13 @@ return require('packer').startup(function(use)
     -- LSP Java
     use { "mfussenegger/nvim-jdtls", ft = { "java" } }
 
+    -- HASKELL
+    use "nvim-lua/plenary.nvim"
+    use {
+        'mrcjkb/haskell-tools.nvim',
+        requires = {
+            'nvim-lua/plenary.nvim',
+            'nvim-telescope/telescope.nvim', -- optional
+        },
+    }
 end)

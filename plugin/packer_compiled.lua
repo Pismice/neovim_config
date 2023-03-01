@@ -115,6 +115,11 @@ _G.packer_plugins = {
     path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["haskell-tools.nvim"] = {
+    loaded = true,
+    path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/haskell-tools.nvim",
+    url = "https://github.com/mrcjkb/haskell-tools.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -129,11 +134,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  nvcode = {
-    loaded = true,
-    path = "/home/tetratrux/.local/share/nvim/site/pack/packer/start/nvcode",
-    url = "https://github.com/jilvanx/nvcode"
   },
   ["nvim-cmp"] = {
     loaded = true,
